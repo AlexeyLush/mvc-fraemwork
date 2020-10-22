@@ -27,7 +27,7 @@ final class Application
     }
 
     function request(){
-        return $this->request;
+
     }
 
 }
