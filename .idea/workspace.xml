@@ -2,21 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d1e44ba-fd75-4aa3-a453-9a4d153eeeb0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Kernel/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mvc-fraemwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc-fraemwork.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>D:\OpenServer\OpenServer\domains\mvc-fraemwork\composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
+      <path value="$PROJECT_DIR$/vendor/laminas/laminas-httphandlerrunner" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1jBqY8K9yaUqSGxOS6bT4JprbGG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,6 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,7 +70,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603287876679</updated>
-      <workItem from="1603287877801" duration="1316000" />
+      <workItem from="1603287877801" duration="4085000" />
+      <workItem from="1603292605159" duration="3186000" />
+      <workItem from="1603371554308" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore">
       <created>1603287977759</created>
@@ -51,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603288750418</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Composer Init">
+      <created>1603289243841</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603289243841</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -59,20 +103,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add .gitignore" />
+    <MESSAGE value="Composer Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Composer Init" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1603288747825">
+    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1603289242207">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603288747825" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603287921609">
+    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603289242207" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603292654550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603287921609" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603288751153">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603292654550" />
+    <state x="1234" y="485" key="NewPhpClassDialog" timestamp="1603294980512">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603288751153" />
+    <state x="1234" y="485" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603294980512" />
+    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603291642712">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603291642712" />
+    <state x="724" y="191" key="SettingsEditor" timestamp="1603295728974">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603295728974" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603289246835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603289246835" />
   </component>
 </project>

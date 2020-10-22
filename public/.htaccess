@@ -1,0 +1,8 @@
+# Включаем режим перезаписи
+RewriteEngine on
+# Если не директория
+RewriteCond %{REQUEST_FILENAME} !-d
+# Если не файл
+RewriteCond %{REQUEST_FILENAME} !-f
+# Перенаправляем все запросы на index.php
+RewriteRule ^.*$ index.php [L]
