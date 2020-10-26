@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d1e44ba-fd75-4aa3-a453-9a4d153eeeb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/framework/Kernel/Application.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    <list default="true" id="5d1e44ba-fd75-4aa3-a453-9a4d153eeeb0" name="Default Changelist" comment="Исправил Application.php">
+      <change afterPath="$PROJECT_DIR$/app/Controllers/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Book.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/Filesystem.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/ServiceProviders/DatabaseServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/ServiceProviders/ExceptionHandleServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/ServiceProviders/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/ServiceProviders/ServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Application/ServiceProviders/ViewServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Contracts/IServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/Kernel/ServiceProviderBag.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/helpers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/mvc-fraemwork.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc-fraemwork.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/Kernel/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/Kernel/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +63,14 @@
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-zendframework-bridge" />
       <path value="$PROJECT_DIR$/vendor/psr/http-server-handler" />
       <path value="$PROJECT_DIR$/vendor/laminas/laminas-httphandlerrunner" />
+      <path value="$PROJECT_DIR$/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/vendor/league/route" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-server-middleware" />
+      <path value="$PROJECT_DIR$/vendor/smarty/smarty" />
+      <path value="$PROJECT_DIR$/vendor/php-activerecord/php-activerecord" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
     </include_path>
   </component>
   <component name="ProjectId" id="1jBqY8K9yaUqSGxOS6bT4JprbGG" />
@@ -59,6 +85,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -72,7 +99,9 @@
       <updated>1603287876679</updated>
       <workItem from="1603287877801" duration="4085000" />
       <workItem from="1603292605159" duration="3186000" />
-      <workItem from="1603371554308" duration="337000" />
+      <workItem from="1603371554308" duration="10022000" />
+      <workItem from="1603543676659" duration="26000" />
+      <workItem from="1603717666054" duration="8646000" />
     </task>
     <task id="LOCAL-00001" summary="Add .gitignore">
       <created>1603287977759</created>
@@ -95,7 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603289243841</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class Work">
+      <created>1603372152659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372152659</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Исправил Application.php">
+      <created>1603372454779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603372454779</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,32 +147,42 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add .gitignore" />
     <MESSAGE value="Composer Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Composer Init" />
+    <MESSAGE value="Class Work" />
+    <MESSAGE value="Исправил Application.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил Application.php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="97" key="CommitChangelistDialog2" timestamp="1603289242207">
+    <state x="1530" y="250" key="#com.intellij.ide.util.MemberChooser" timestamp="1603377610584">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603289242207" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603292654550">
+    <state x="1530" y="250" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603377610584" />
+    <state x="1418" y="354" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603375498862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603292654550" />
-    <state x="1234" y="485" key="NewPhpClassDialog" timestamp="1603294980512">
+    <state x="1418" y="354" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603375498862" />
+    <state x="808" y="103" key="CommitChangelistDialog2" timestamp="1603721451884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1234" y="485" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603294980512" />
-    <state x="794" y="443" key="NewPhpFileDialog" timestamp="1603291642712">
+    <state x="808" y="103" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1603721451884" />
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1603543700898">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603291642712" />
-    <state x="724" y="191" key="SettingsEditor" timestamp="1603295728974">
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603543700898" />
+    <state x="1159" y="453" key="NewPhpClassDialog" timestamp="1603725257458">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="724" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603295728974" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603289246835">
+    <state x="1159" y="453" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603725257458" />
+    <state x="850" y="603" key="NewPhpFileDialog" timestamp="1603723382472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603289246835" />
+    <state x="850" y="603" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603723382472" />
+    <state x="724" y="191" key="SettingsEditor" timestamp="1603373622234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="724" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603373622234" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603372472015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603372472015" />
   </component>
 </project>
